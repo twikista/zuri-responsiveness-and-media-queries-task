@@ -21,14 +21,14 @@
             <form action="" class="flex">
                 <div class="input-wrapper">
                     <div class="input">
-                        <input type="text" name="first-name" id="first-name" placeholder="first name" required>
+                        <input type="text" name="first-name" id="first-name" placeholder="first name" class="writeable-input" required>
                         <img src="./assets/icon-error.svg" class="error-icon" alt="error-icon">
                     </div>
                     <span class="error">First Name cannot be empty</span>
                 </div>
                 <div class="input-wrapper">
                     <div class="input">
-                        <input type="text" name="last-name" id="last-name" placeholder="last name" required>
+                        <input type="text" name="last-name" id="last-name" placeholder="last name" class="writeable-input" required>
                         <img src="./assets/icon-error.svg" class="error-icon" alt="error-icon">
                     </div>
                     
@@ -36,22 +36,23 @@
                 </div>
                 <div class="input-wrapper">
                     <div class="input">
-                    <input type="email" name="email" id="email" placeholder="email">
+                    <input type="email" name="email" id="email" placeholder="email" class="writeable-input" required>
                     <img src="./assets/icon-error.svg" class="error-icon" alt="error-icon">
                     </div>
                     <span class="error">Looks like this is not an email</span>
                 </div>
                 <div class="input-wrapper">
                     <div class="input">
-                        <input type="password" name="password" id="password" placeholder="password" required>
+                        <input type="password" name="password" id="password" placeholder="password" class="writeable-input" required>
                         <img src="./assets/icon-error.svg" class="error-icon" alt="error-icon">
                     </div>
                     <span class="error">Password cannot be empty</span>
                 </div>
-                <input type="submit" value="claim your free trial" class="submit-btn" required>
+                <input type="submit" value="claim your free trial" class="submit-btn flex" name="submit-btn" required>
                 <span class="disclaimer">By clicking the button, you are agreeing to our <span class="bold terms">Terms and services</span></span>
             </form>
         </section>
     </main>
+    <script src="./js/script.js"></script>
 </body>
 </html>
